@@ -1,0 +1,94 @@
+# Visual Studio / MSBuild
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+ipch/
+*.ipch
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.iobj
+*.ipdb
+*.tlog/
+*.lastbuildstate
+*.log
+
+# Config-specific output
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+ARM*/
+
+# Binaries
+*.exe
+*.dll
+*.lib
+*.exp
+*.appx
+*.msi
+
+# Compiler/IDE caches
+*.pch
+*.cache
+*.tmp
+*.bak
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# MFC resource compiler intermediates
+*.aps
+
+# NuGet
+*.nupkg
+packages/
+# If you use package restore, keep this ignored; otherwise remove the next line
+**/packages/*
+!**/packages/build/
+
+# Code analysis / test
+TestResults/
+*.codeanalysislog
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Others you likely don’t want committed
+*.sav
+*.sbr
+*.rsp
+*.map
+*.pgc
+*.pgd
+*.sdf
+*.opensdf
+*.vcxproj.user
+
+# Keep project files
+!*.sln
+!*.vcxproj
+!*.vcxproj.filters
+!*.props
+!*.targets
+!*.rc
+!*.h
+!*.hpp
+!*.cpp
+!*.c
+!*.inl
+!*.ico
+!*.bmp
+!*.png
+!*.jpg
+!*.rc2
+!README.md
+!.gitignore
